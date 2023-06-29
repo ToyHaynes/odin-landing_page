@@ -88,12 +88,21 @@ body {
 
 .images {
     display: flex;
-    gap: 3em;
+    gap: 5em;
     padding: 0 0 7em 0;
+    margin: -3em 0 0 0;
 }
 
 .info {
     max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.text {
+    text-align: center;
 }
 
 .second p {
@@ -102,8 +111,9 @@ body {
     color: #1F2937;
 }
 
-img {
-    border: 3px solid #1F2937;
+img { 
+    width: 12em;
+    border-radius: 5px;
 }
 
 
