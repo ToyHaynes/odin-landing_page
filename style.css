@@ -8,7 +8,10 @@ body {
     margin: 0;
 }
 
+
 /* First Section */
+
+
 .first {
     background-color: #1F2937;
     color: aliceblue;
@@ -44,7 +47,7 @@ body {
     list-style: none;
     display: flex;
     gap: 1em;
-    margin: 0;
+    margin: 0.35em 0;
 }
 
 .left div {
@@ -62,6 +65,7 @@ body {
 .top div {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .signup {
@@ -74,4 +78,32 @@ body {
 }
 
 /* Second Section */
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    gap: 3em;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.second p {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+img {
+    border: 3px solid #1F2937;
+}
+
+
+/* Third Section */
 
