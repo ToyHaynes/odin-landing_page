@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-
 * {
     font-family: 'Comfortaa', cursive;
 }
@@ -33,8 +31,6 @@ body {
     gap: 2em;
 }
 
-
-
 .left {
     display: flex;
     flex-direction: column;
@@ -52,6 +48,7 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    padding: 0 0 1em 0;
 }
 
 .left p,
