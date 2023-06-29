@@ -88,6 +88,7 @@ body {
 .images {
     display: flex;
     gap: 3em;
+    padding: 0 0 7em 0;
 }
 
 .info {
@@ -107,3 +108,8 @@ img {
 
 /* Third Section */
 
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
