@@ -79,6 +79,7 @@ body {
 
 /* Second Section */
 
+
 .second {
     display: flex;
     flex-direction: column;
@@ -127,3 +128,42 @@ img {
     font-weight: 900;
     margin: 0 4em;
 }
+
+
+/* Fourth Section */
+
+.fourth {
+    background-color: #3882F6;
+    margin: 7em 12em;
+    padding: 3em 6em 2em 6em;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px
+}
+
+.fourth div {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.fourth p {
+    font-weight: 100;
+}
+
+.bsignup {
+    background-color: #3882F6;
+    border: #F9FAF8 solid 1px;
+    border-radius: 5px ;
+    color: #E5E7EB;
+    padding: 0.5em 2em;
+   
+}
+
+
+/* Footer */
+
+
+
