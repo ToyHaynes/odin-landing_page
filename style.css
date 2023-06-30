@@ -13,7 +13,7 @@ body {
 
 
 .first {
-    background-color: #1F2937;
+    background-color: #2C3639;
     color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -51,28 +51,28 @@ body {
 .left div {
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8;
+    color: #DCD7C9;
     padding: 0 0 1em 0;
 }
 
 .left p,
 .links {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #DCD7C9;
     font-weight: 100;
 }
 
 .top div {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #DCD7C9;
     margin: 0;
 }
 
 .signup {
-    background-color: #3882F6;
+    background-color: #A27B5C;
     border: none;
     border-radius: 5px ;
-    color: #E5E7EB;
+    color: #DCD7C9;
     padding: 0.5em 2em;   
 }
 
@@ -114,7 +114,7 @@ body {
 .second p {
     font-size: 36px;
     font-weight: 200;
-    color: #1F2937;
+    color: #2C3639;
 }
 
 img { 
@@ -128,7 +128,7 @@ img {
 .third {
     background-color: #E5E7EB;
     align-self: center;
-    color: #1F2937;
+    color: #2C3639;
     padding: 7em 50em;   
     margin: 0 ;
 
@@ -138,14 +138,15 @@ img {
 /* Fourth Section */
 
 .fourth {
-    background-color: #3882F6;
+    background-color: #A27B5C;
     margin: 7em 12em;
     padding: 3em 6em 2em 6em;
     border-radius: 8px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 5px
+    gap: 5px;
+    min-width: 500px;  
 }
 
 .fourth div {
@@ -161,10 +162,10 @@ img {
 }
 
 .bsignup {
-    background-color: #3882F6;
-    border: #F9FAF8 solid 1px;
+    background-color: #A27B5C;
+    border: #DCD7C9 solid 1px;
     border-radius: 5px ;
-    color: #E5E7EB;
+    color: #DCD7C9;
     padding: 0.5em 2em;
     flex: 0 0 auto;
     margin: 3em;
@@ -179,8 +180,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1F2937;
-    color: #E5E7EB;
+    background-color: #2C3639;
+    color: #DCD7C9;
     padding: 2em;
     font-size: 11px;
 }
