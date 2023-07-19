@@ -1,5 +1,10 @@
+@font-face {
+    font-family: my-font;
+    src: url(fonts/webfontkit-20230629-193254/comfortaa-variablefont_wght-webfont.woff);
+}
+
 * {
-    font-family: 'Comfortaa', cursive;
+    font-family: my-font;
 }
 
 body {
